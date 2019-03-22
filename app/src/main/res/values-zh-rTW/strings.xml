@@ -1,0 +1,21 @@
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">快速展示</string>
+    <string name="action_settings">設定</string>
+    <string name="edit_copy_source_path">請輸入來源檔位置和檔名</string>
+    <string name="edit_copy_goal_path">請輸入目的檔位置和檔名</string>
+    <string name="edit_input_execute_number_of_times">請輸入執行次數</string>
+    <string name="btn_copy_file">開始複製檔案</string>
+    <string name="error_copy_source_path">來源檔位置和檔名不可為空。</string>
+    <string name="error_copy_goal_path">目的檔位置和檔名不可為空。</string>
+    <string name="error_execute_number_of_times">執行次數不可為空。</string>
+    <string name="error_delete_fail">檔案刪除失敗。</string>
+    <string name="copy_start_title">正在執行複製速度測試...</string>
+    <string name="copy_start_message"><xliff:g id="count">%d</xliff:g> MB/s</string>
+    <string name="test_canceled">已取消測試。</string>
+    <string name="error_source_path">來源檔案不存在。</string>
+    <string name="error_goal_path">目的檔案輸入錯誤。</string>
+</resources>

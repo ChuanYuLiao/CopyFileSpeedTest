@@ -1,0 +1,21 @@
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">QuickDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_copy_source_path">Please input the copy source path and filename</string>
+    <string name="edit_copy_goal_path">Please input the copy goal path and filename</string>
+    <string name="edit_input_execute_number_of_times">Please input the execute number of times</string>
+    <string name="btn_copy_file">Start Copy File</string>
+    <string name="error_copy_source_path">Copy source path and filename can\'t be null.</string>
+    <string name="error_copy_goal_path">Copy goal path and filename can\'t be null.</string>
+    <string name="error_execute_number_of_times">Execute number of times can\'t be null.</string>
+    <string name="error_delete_fail">Delete file is not success.</string>
+    <string name="copy_start_title">Now executing the copy speed test...</string>
+    <string name="copy_start_message"><xliff:g id="count">%d</xliff:g> MB/s</string>
+    <string name="test_canceled">Test has been canceled.</string>
+    <string name="error_source_path">The source file is not exists.</string>
+    <string name="error_goal_path">The goal path is not valid.</string>
+</resources>

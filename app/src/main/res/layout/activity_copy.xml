@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evenwell.quickdemo.CopyActivity">
+
+    <EditText
+        android:id = "@+id/edt_inputSourcePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:textColorHighlight="#C4C4C4"
+        android:textScaleX="1.5"
+        android:typeface="monospace"
+        android:hint="@string/edit_copy_source_path"
+        android:textSize="14sp"
+        android:textColorHint="#9b9b9b"
+        android:singleLine = "true"
+        android:ellipsize="end"
+        android:inputType="none"/>
+
+    <EditText
+        android:id="@+id/edt_inputGoalPath"
+        android:layout_below="@+id/edt_inputSourcePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:textColorHighlight="#C4C4C4"
+        android:textScaleX="1.5"
+        android:typeface="monospace"
+        android:hint="@string/edit_copy_goal_path"
+        android:textSize="14sp"
+        android:textColorHint="#9b9b9b"
+        android:singleLine = "true"
+        android:ellipsize="end"
+        android:inputType="none"/>
+
+    <EditText
+        android:id="@+id/edt_inputExecute"
+        android:layout_below="@+id/edt_inputGoalPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:textColorHighlight="#C4C4C4"
+        android:textScaleX="1.5"
+        android:typeface="monospace"
+        android:hint="@string/edit_input_execute_number_of_times"
+        android:textSize="14sp"
+        android:textColorHint="#9b9b9b"
+        android:singleLine = "true"
+        android:ellipsize="end"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btn_copy_file"
+        android:layout_below="@+id/edt_inputExecute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_copy_file"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+</RelativeLayout>
